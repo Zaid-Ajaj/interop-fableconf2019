@@ -2,12 +2,15 @@
   "private": true,
   "scripts": {
     "build": "webpack",
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server",
+    "compile-babel": "fable-splitter src -o ./dist",
+    "compile-commonjs": "fable-splitter src -o ./dist --commonjs"
   },
   "devDependencies": {
     "@babel/core": "^7.1.2",
-    "fable-compiler": "^2.3.14",
+    "fable-compiler": "^2.3.23",
     "fable-loader": "^2.1.8",
+    "fable-splitter": "^2.1.11",
     "webpack": "^4.38.0",
     "webpack-cli": "^3.3.6",
     "webpack-dev-server": "^3.7.2"

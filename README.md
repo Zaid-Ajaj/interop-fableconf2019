@@ -1,4 +1,4 @@
-# Fable Getting Started
+# Fable Getting Started - Interop edition
 
 This is the simplest Fable application you can make: it is a frontend web application with an empty page that writes `Hello from Fable` to the console.
 
