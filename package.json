@@ -14,5 +14,8 @@
     "webpack": "^4.38.0",
     "webpack-cli": "^3.3.6",
     "webpack-dev-server": "^3.7.2"
+  },
+  "dependencies": {
+    "filesize": "^4.1.2"
   }
 }
